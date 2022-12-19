@@ -10,6 +10,44 @@ body{
     text-decoration: none;
 }
 
+
+.logo-span{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    /* identical to box height, or 133% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    /* NAVY BLUE */
+    
+    color: #2E2F42;
+    
+}
+
+.header-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    /* identical to box height, or 133% */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    /* IRIS */
+    
+    color: #4D5AE5;
+    
+}
+
 .header-item{
 font-family: 'Roboto';
 font-weight: 500;
@@ -29,7 +67,7 @@ color: #2E2F42;
     
     letter-spacing: 0.02em;
     color: #434455;
-}
+} 
 
 .header-tel-link{
 font-family: 'Roboto';
@@ -61,11 +99,11 @@ color: #4D5AE5;
     color: #4D5AE5;
 }
 
-.header-tel-link:hover{
+.header-tel:hover{
     color: #4D5AE5;
 }
 
-.header-mail-link:hover{
+.header-mail:hover{
     color: #4D5AE5;
 }
 
@@ -229,4 +267,42 @@ color: #434455;
 
 .portfolio-btn:hover{
     color: #4D5AE5;
+}
+
+.footer-logo{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* IRIS */
+
+color: #4D5AE5;
+}
+
+.footer-logo-span{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+/* identical to box height, or 133% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+
 }
