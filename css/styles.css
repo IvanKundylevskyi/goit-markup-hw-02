@@ -1,3 +1,5 @@
+:root{ --main-color: #2E2F42;}
+
 body{
     font-family: "Roboto", "Raleway" ;
 }
@@ -25,13 +27,12 @@ body{
     
     /* NAVY BLUE */
     
-    color: #2E2F42;
+    color: var(--main-color);
     
 }
 
 .header-logo{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -49,17 +50,14 @@ body{
 }
 
 .header-item{
-font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--main-color);
 }
 
 .header-mail-link{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -70,8 +68,6 @@ color: #2E2F42;
 } 
 
 .header-tel-link{
-font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;       
@@ -79,12 +75,11 @@ letter-spacing: 0.02em;
         color: #434455;
 }
 .header-link{
- font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--main-color);
 }
 
 .header{
@@ -113,10 +108,9 @@ color: #4D5AE5;
 }
 
 .hero{
-    background: #2E2F42;
+    background: var(--main-color);
 }
 .title{
-font-family: 'Roboto';
 font-weight: 500;
 font-size: 56px;
 line-height: 1.07;
@@ -130,11 +124,20 @@ color: #FFFFFF;
 .hero-btn{
     background: #4D5AE5;
     cursor: pointer;
-    color: #FFFFFF;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.18;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+
 }
 
 .about-title{
-font-family: 'Roboto';
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -144,11 +147,10 @@ letter-spacing: 0.02em;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--main-color);
 }
 
 .about-text{
-font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -162,7 +164,6 @@ color: #434455;
 }
 
 .hero-title{
-font-family: 'Roboto';
 font-weight: 500;
 font-size: 36px;
 line-height: 1.11;
@@ -172,10 +173,9 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 
-color: #2E2F42;
+color: var(--main-color);
 }
 .hero-subtitle{
-    font-family: 'Roboto';
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -183,11 +183,10 @@ line-height: 1.2;
 
 text-align: center;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--main-color);
 }
 
 .after_subtitle{
-font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -202,12 +201,10 @@ color: #434455;
 }
 
 .footer{
-    background: #2E2F42;
+    background: var(--main-color);
 }
 
 .footer-ending{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -219,13 +216,36 @@ color: #434455;
 
 .portfolio-btn{
     background-color: #F4F4FD;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    
+    /* IRIS */
+    
     color: #4D5AE5;
     cursor: pointer;
 }
 
 .portfolio-btn-blue{
     background-color: #404BBF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    
     color: #FFFFFF;
+    
     cursor: pointer;
 }
 
@@ -234,7 +254,6 @@ color: #434455;
 }
 
 .portfolio-title{
-font-family: 'Roboto';
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -244,11 +263,10 @@ letter-spacing: 0.02em;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--main-color);
 }
 
 .portfolio-text{
-font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -271,7 +289,6 @@ color: #434455;
 
 .footer-logo{
     font-family: 'Raleway';
-font-style: normal;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
@@ -288,21 +305,7 @@ color: #4D5AE5;
 }
 
 .footer-logo-span{
-    font-family: 'Raleway';
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.33;
-/* identical to box height, or 133% */
 
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
-
+color: #F4F4FD;
 
 }
